@@ -13,8 +13,8 @@
 #include "notsofle-layouts.dtsi"
 
 / {
-    model = "eyelash_sofle";
-    compatible = "eyelashperipherals,eyelash_sofle";
+    model = "notsofle";
+    compatible = "notsofleperipherals,notsofle";
 
     chosen {
         zephyr,code-partition = &code_partition;
@@ -23,7 +23,7 @@
         zmk,kscan = &kscan0;
         zmk,battery = &vbatt;
         zmk,underglow = &led_strip;
-        zmk,physical-layout = &eyelash_sofle_layout;
+        zmk,physical-layout = &notsofle_layout;
         zmk,backlight = &backlight;
     };
 
